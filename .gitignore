@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.json
+!notebooks/*.ipynb
+
+# ADK local storage
+.adk/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+scratch.txt
